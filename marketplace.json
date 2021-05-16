@@ -1,0 +1,39 @@
+{
+    "app_name": "Redisstore",
+    "description": "Firestore backed by redis!",
+    "hidden": false,
+    "rank": 21,
+    "type": "Building Block",
+    "contributed_by": "Community",
+    "repo_url": "https://github.com/Dacode45/redis-store",
+    "download_url": "https://github.com/Dacode45/redis-store/archive/refs/heads/main.zip",
+    "hosted_url": "",
+    "quick_deploy": "",
+    "deploy_buttons": [],
+    "language": [
+        "Go"
+    ],
+    "redis_commands": [
+        "JSON.SET",
+        "JSON.GET",
+        "ZADD",
+        "ZRANGE",
+        "PUBLISH",
+        "SUBSCRIBE"
+    ],
+    "redis_features": [
+        "caching"
+    ],
+    "redis_modules": [
+        "RediJSON"
+    ],
+    "app_image_urls": [
+        "https://github.com/Dacode45/redis-store"
+    ],
+    "youtube_url": "",
+    "special_tags": [
+        "Hackathon"
+    ],
+    "verticals": [],
+    "markdown": ""
+}

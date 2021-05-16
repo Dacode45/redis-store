@@ -19,7 +19,7 @@ firebase.initializeApp({
   appId: "1:236019956579:web:2571944982d45284deb156"// your config
 })
 
-redisbase.initializeApp({server: "localhost:8000"});
+redisbase.initializeApp({server: "redis-hackathon-redis-store.herokuapp.com"});
 
 const auth = firebase.auth();
 const firestore = redisbase.redisstore();
@@ -70,7 +70,7 @@ function SignOut() {
 function ChatRoom() {
   const dummy = useRef() as any;
   const messagesRef = firestore.collection('messagesprodall');
-  const query = messagesRef.orderBy('createdAt').limit(25);
+  const query = messagesRef.orderBy('updatedAt').limit(25);
 
   const [messages] = useCollectionData(query, { idField: 'id' });
 
