@@ -1,14 +1,14 @@
 import React, { useRef, useState } from 'react';
 import './App.css';
 
-import * as redisbase from './redisbase';
+import * as redisbase from 'redis-store-ts';
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 import 'firebase/analytics';
 
 import { useAuthState } from 'react-firebase-hooks/auth';
-import { useCollectionData } from './redisbase/hooks';
+import { useCollectionData } from 'redis-store-ts/lib/hooks';
 
 firebase.initializeApp({
   apiKey: "AIzaSyArSDuO4Wo4dlN1qFhMKPppgrSJZtg1n3Q",

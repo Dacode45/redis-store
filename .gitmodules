@@ -1,0 +1,6 @@
+[submodule "redis-store-server"]
+	path = redis-store-server
+	url = https://github.com/Dacode45/redis-store-server.git
+[submodule "redis-store-ts"]
+	path = redis-store-ts
+	url = https://github.com/Dacode45/redis-store-server.git
